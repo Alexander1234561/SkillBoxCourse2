@@ -11,7 +11,7 @@ import Foundation
 //6
 
 //a
-
+print("Hello")
 func equtableObjects<T: Equatable>(first: T, second: T) {
     first == second ? print("Equal") : print("Not equal")
 }
